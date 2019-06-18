@@ -2,10 +2,10 @@
     width: 100px;
     height: 100px;
     background-color: #454545;
+    transition: transform 1s ease-in-out;
 }
 
 .element:hover {
-    transform: translate(100%) ;
-    animation-timing-function:linear 1s;
-    
+    transition: 1s;
+    transform: translateX(100%);
 }
