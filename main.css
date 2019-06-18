@@ -7,5 +7,5 @@
 
 .element:hover {
     transition: 1s;
-    transform: translateX(100%);
+    transform: translate(100%);
 }
